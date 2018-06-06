@@ -4307,7 +4307,7 @@ Certainly, the tests managed to show that the error increases with a growth
  of the level of incompleteness, which should not be a big surprise.
  At the same time, it decreases when the size of the matrix increases.
  However, the most important question was about which indexes cope well
- with incomplete matrices.
+ with incomplete matrixes.
  The Koczkodaj index (
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4359,12 +4359,12 @@ reference "eq:K"
 
 ) and notice that it is equal to the value of the most inconsistency triad.
  Therefore, if the level of incompleteness is low, there is a good chance
- that after deletion some values from the matrix and recalculating the index
+ that after removal some values from the matrix and recalculating the index
  the value of it will not change at all.
  It will only change if the element included in the most inconsistent triad
  is removed.
- However, in many cases, the examination of the full matrix and th matrix
- after incompletion give exactly the same results (the error is 
+ However, in many cases, the examination of the full matrix and the matrix
+ after deletion some values give exactly the same results (the error is 
 \begin_inset Formula $0\%$
 \end_inset
 
@@ -4388,7 +4388,7 @@ reference "eq:I1"
 
 ) averages the inconsistencies of the triads.
  Therefore, it is safe and gives good results (in both tests it took the
- sixth place and achieved an error below 
+ fifth place and achieved an error below 
 \begin_inset Formula $8\%$
 \end_inset
 
